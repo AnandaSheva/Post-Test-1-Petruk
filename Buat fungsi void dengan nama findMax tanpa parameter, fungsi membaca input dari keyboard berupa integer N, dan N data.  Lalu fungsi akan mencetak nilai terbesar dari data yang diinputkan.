@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+void findMax(){
+    int jumlah;
+    cin >> jumlah;
+    int max = 0;
+    int temp;
+    for(int a=0; a<jumlah; a++){
+        cin>>temp;
+            if (temp>max){
+                max=temp;
+            }
+    }
+    cout<<max;
+}
