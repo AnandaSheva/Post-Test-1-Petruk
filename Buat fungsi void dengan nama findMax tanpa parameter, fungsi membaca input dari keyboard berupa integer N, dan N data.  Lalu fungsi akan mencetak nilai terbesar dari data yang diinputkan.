@@ -16,3 +16,14 @@ void findMax(){
     }
     cout<<max;
 }
+
+// void hitungRerata(){
+//     int n;
+//     double rata2=0,data;
+//    cin>>n;
+//    for (int i=0;i<n;i++) {
+//        cin>>data;
+//        rata2+= data/n;
+//    }
+//    cout<<rata2;
+// }
